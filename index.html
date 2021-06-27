@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anki generator</title>
+</head>
+<body>
+    <section>
+    <h2>Import from file</h2>
+    <label for="deck-file">Upload either txt or zip file</label>
+    <input type="file" name="deck-file" id="deck-file">
+    <button type="button" id="deck-file-button">Convert!</button>
+    </section>
+    <hr>
+    
+    <section>
+        <h2>Import from text area</h2>
+        <label for="deck-text">Write deck</label>
+        <textarea name="deck-text" id="deck-text"></textarea>
+        <button type="button" id="deck-text-button">Convert!</button>
+    </section><hr>
+    
+    <!-- Can't deal with cors right now -->
+    <!-- <section>
+        <h2>Import from github repo</h2>
+        <label for="deck-github">Write deck</label>
+        <input type="text" name="deck-github" id="deck-github">
+        <button type="button" id="deck-github-button">Convert!</button>
+    </section> -->
+    <script src="./bundle.js"></script>
+</body>
+</html>
+
